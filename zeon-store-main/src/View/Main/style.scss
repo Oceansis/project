@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.main__carousel {
+  margin: 11px 0 60px;
+}
+
+.main{
+  //background: #ECECEC;
+  margin: 50px 0;
+  //.flex{
+  //  display: flex;
+  //}
+  .media{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(262px, 1fr));
+  }
+  .main__title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #393939;
+  }
+  .main__card{
+    transition: .5s;
+    margin: 15px 5px;
+    max-width: 280px;
+  }
+  .main__card:hover{
+    box-shadow: 0 5px 8px 5px rgba(33,33,33,.2);
+
+  }
+  .card_title{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 6px;
+    color: #393939;
+  }
+  .card_price{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #393939;
+    .old_price{
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+
+      display: flex;
+      align-items: flex-end;
+      text-align: justify;
+      text-decoration-line: line-through;
+
+      color: #ADADAD;
+    }
+  }
+  .card_info{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin:6px 0  10px 0;
+    color: #7C7C7C;
+  }
+  .more_btn{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 8px 39px;
+    margin: 25px auto;
+    display: block;
+    text-align: center;
+    border: none;
+    background: #000;
+    color: #FFFFFF;
+  }
+}
+.novelty{
+  margin: 50px 0;
+}
+.collection{
+  margin: 50px 0;
+  position: relative;
+  &__card{
+    transition: .5s;
+    border: none;
+
+    img{
+      height: 330px;
+      object-fit: cover;
+    }
+  }
+  &__card:hover{
+    box-shadow: 0 5px 8px 5px rgba(33,33,33,.2);
+
+  .collection__footer{
+
+     background: #FFFFFF;
+   }
+    .collection__text{
+      color: black;
+      span{
+        color: black;
+      }
+    }
+}
+
+  &__title{
+    position: absolute;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    width: 100%;
+    text-align: center;
+    bottom: 55px;
+    z-index: 1;
+
+    color: #FFFFFF;
+  }
+
+  &__footer{
+    transition: .5s;
+
+    background: #000;
+    padding: 13px 0 ;
+    display: flex;
+    justify-content: center;
+
+  }
+  &__text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 0 0;
+
+
+    color: #FFFFFF;
+    span{
+      padding-left: 15px;
+    }
+  }
+
+
+}
+
+.advantages{
+  &__card{
+    transition: box-shadow .5s;
+    display: inline-block;
+    text-align: center;
+  }
+  &__card:hover{
+    box-shadow: 0 4px 8px 1px rgba(33,33,33,.2);  }
+  &__svg{
+    margin: 26px 0;
+  }
+  &__title{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Text color/Primary */
+
+    color: #393939;
+  }
+  &__subtitle{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 175%;
+    /* or 24px */
+
+    letter-spacing: 0.04em;
+
+    /* Text color/Gray */
+
+    color: #979797;
+  }
+}

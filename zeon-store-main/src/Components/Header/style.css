@@ -1,0 +1,133 @@
+p {
+  margin: 0;
+}
+
+.nav {
+  margin: 22px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__right-side {
+  display: flex;
+  align-items: center;
+}
+.nav__item {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #393939;
+  margin-right: 24px;
+}
+.nav__contact {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #979797;
+}
+.nav__contact span {
+  margin-left: 6px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #393939;
+}
+
+.menu__header {
+  display: flex;
+  align-items: baseline;
+}
+.menu__header .header__logo {
+  margin-right: 35px;
+}
+.menu__header .menu__search Form {
+  display: inline-block;
+  margin-right: 35px;
+}
+.menu__header .menu__search Form .menu__group {
+  display: flex;
+  align-items: center;
+}
+.menu__header .menu__search Form .menu__input {
+  background: #F8F8F8;
+  width: 662px;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  z-index: auto;
+}
+.menu__header .menu__search Form img {
+  height: 18px;
+  width: 18px;
+  margin: 0 50px 0 -35px;
+}
+.menu__header .menu__icons {
+  display: flex;
+}
+.menu__header .menu__icons .icon__span {
+  margin: 0 20px;
+}
+.menu__header .menu__icons .icon {
+  display: flex;
+  align-items: baseline;
+}
+.menu__header .menu__icons span {
+  margin-right: 10px;
+}
+.menu__header .menu__icons .icons__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  /* Text color/Primary */
+  color: #393939;
+}
+
+.floating__buttons {
+  position: fixed;
+  top: 70%;
+  right: 4%;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+
+.up__arrow {
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin-left: 163px;
+}
+
+.message {
+  display: inline-block;
+  text-align: right;
+  cursor: pointer;
+}
+
+.message_btn {
+  display: none;
+}
+
+.call__back {
+  display: flex;
+  align-items: center;
+}
+
+.telegram {
+  margin-right: 6px;
+}
+
+.whatsapp {
+  margin-right: 6px;
+}
+
+.phone {
+  margin-right: 22px;
+  cursor: pointer;
+}
+
+.close_message {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
